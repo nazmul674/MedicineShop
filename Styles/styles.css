@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: blue;
+}
+
+
+body{
+background-color:thistle;
+}
+
+.main_wrapper{
+   
+     width: 1000px;
+     height:auto;
+    margin:auto;
+}
+.head_wrapper{
+    width:1000px;
+     height:100px;
+    background:blueviolet;
+}
+#navbar{
+    width:1000px;
+    height:50px;
+    background-color: gainsboro;
+    
+}
+#menu{
+    padding:0;
+    line-height:25px;
+    margin-top: 5px   
+    float: left; 
+}
+#menu li{
+     list-style: none;
+    display: inline;
+     
+}
+  
+#menu a{
+   color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+    margin: 5px;
+    padding:10px;
+    
+}
+#menu a:hover{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bolder;
+}
+#search_box{
+     float: right;
+    line-height: 10px;
+    padding right: 5px;
+ 
+   
+}
+
+.content_wrapper{
+    
+    width: 1000px;
+    height: 700px;
+    background-color:brown;
+    color:bisque;
+}
+#right_content{
+    width: 760px;
+    height: 700px;
+    background-color: orchid;
+    float:right;
+}
+#headline{
+    width: 740px;
+    height: 40px;
+   padding: 10px;
+  
+    background-color: black;
+    
+}
+#head_content{
+    float:  right;
+}
+
+#left_content{
+    
+    width: 240px;
+    height:700px;
+    background-color: gainsboro;
+    float: left; 
+}
+
+#left_sidebar{
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+ 
+}
+.footer{
+    width: auto;
+    height:200px;
+    background-color: aqua;
+    clear: both;
+}
+
+#sidebar_title{
+    
+    background-color: antiquewhite;
+    color: black;
+    font-size: 5px;
+    padding: 20px;
+}
+
+#category{
+    text-align: center;
+    padding:0;
+
+}
+#category li{
+    
+    list-style: none;
+}
+#category a{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+#category a:hover{
+    text-decoration: underline;
+    color: black;
+    font font-weight: bolder;
+    
+}
+
+#product_box{
+    width: 740px;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+ 
+}
+#single_product{
+    float: left;
+    padding: 10px
+  
+}
+#single_product img{
+  border: 2px solid;
+    border-color: black;
+}
+
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
